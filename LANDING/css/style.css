@@ -1,6 +1,6 @@
 @import url(reset.css);
 .header-container{
-	background-color: yellow;
+	background-color: rgb(229, 225, 43);
 	width: 1440px;
 	height: 200px;
 }
@@ -17,23 +17,23 @@ color:black;
 	background-size: cover;
 }
 .menu-container{
-	background-color: yellow;
+	background-color: rgb(229, 225, 43);
 	width: 1440px;
 	height: 100px;
-
 }
 div a {
 	font-family:"Helvetica", sans-serif;
 	font-style: italic;
 	font-size: 35px;
 	color: black;
+	text-transform: uppercase;
 	text-decoration: none;
 	line-height: 100px;
 }
 .text-container{
 	width: 1440px;
-	height: 847px;
-	background-color: rgb(181, 181, 181);
+	height: 550px;
+	background-color: white;
 }
 .text-container h1{
 	font-family: "Helvetica",sans-serif;
@@ -52,15 +52,15 @@ div a {
 .footer-container{
 	width: 1440px;
 	height: 200px;
-	background-color: yellow;
-}
-.footer-container img{
-	width: 205px;
-	height: 46px;
-
+	background-color: rgb(229, 225, 43);
+	background-image: url(../img/logo.png);
+	background-position: left center;
+	background-size: 205px 46px;
+	background-repeat: no-repeat;
 }
 .footer-container h2{
 	font-family: "Helvetica",sans-serif;
 	font-size: 50px;
 	text-align: right;
+	line-height: 200px;
 }
