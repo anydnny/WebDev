@@ -7,47 +7,42 @@
 	font-family: "helvetica", sans-serif;
 	font-size: 20px;
 	font-weight: bold;
-	line-height: 23px;
+	line-height: 60px;
 	color: white;
-	padding: 20px 600px 20px 20px;
+	text-align: left;
+	padding-left: 20px;
 }
-.main-container{
-	height: 904px;
+.page{
+	text-align: center;
 }
-.main-container section{
+.page section{
 	width: 400px;
 	height: 800px;
-	box-sizing: border-box;
 	border: 5px solid #E5E000;
+	border-radius: 30px;
 	display: inline-block;
-	position: absolute;
-	top: 112px;
-	border-radius: 30px; 
-}
-.main-text {
-	position: absolute;
-	top: 97px;
-	left: 33px;
-	line-height: 23px;
-	font-size: 20px;
-}
-.main-container h1{
-	font-family: "helvetica", sans-serif;
-	font-size: 20px;
-	font-weight: bold;
-	line-height: 23px;
-	position: absolute;
-	top:30px;
-	left:30px;
-}
-.first{
-	left: 70px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .second{
-	left:520px;
+	margin-right: 50px;
+	margin-left: 50px;
 }
-.third{
-	right:70px;
+.text{
+	text-align: left;
+	line-height: 23px;
+	font-size: 20px;
+	padding-top: 33px;
+	padding-left: 33px;
+	font-family: "helvetica" serif;
+}
+.text h1{
+	margin-bottom: 41px;
+	font-weight: bold;
+	font-family: "helvetica",sans-serif;
+}
+ul{
+	margin-bottom: 30px;
 }
 .footer{
 	height: 60px;
