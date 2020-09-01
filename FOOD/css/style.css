@@ -12,9 +12,6 @@
 	text-align: left;
 	padding-left: 20px;
 }
-.page{
-	text-align: center;
-}
 .page section{
 	width: 400px;
 	height: 800px;
@@ -24,6 +21,9 @@
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+.page{
+	text-align: center;
+	}
 .second{
 	margin-right: 50px;
 	margin-left: 50px;
