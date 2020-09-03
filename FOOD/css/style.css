@@ -1,56 +1,53 @@
 html{
-	font-size: 10px;
+	font-size: .6vw;
 }
 *{
 	 box-sizing: border-box;
 	 margin: 0;
 	 padding: 0;
 }
+body{
+	font-family: "helvetica", sans-serif;
+	font-weight: bold;
+	font-size: 2rem;
+	color: white;
+
+}
 .header{
 	height: 6rem;
 	background-color: red;
 }
 .header h1{
-	font-family: "helvetica", sans-serif;
-	font-size: 2rem;
-	font-weight: bold;
 	line-height: 6rem;
-	color: white;
 	text-align: left;
 	padding-left: 2rem;
 }
 .main{
 	text-align: center;
+	height: calc(100vh-12rem);
 }
 .main section{
 	width: 40rem;
-	height: 80rem;
 	border: 5px solid #E5E000;
 	border-radius: 30px;
 	display: inline-block;
 	margin-top: 3rem;
 	margin-bottom: 3rem;
+	padding: 3.3rem;
+	text-align: left;
+	line-height: 2.3rem;
+	font-family: "helvetica", serif;
+	font-weight: normal;
+	color:black;
 }
 .second{
 	margin-right: 5rem;
 	margin-left: 5rem;
 }
-.main section{
-	text-align: left;
-	line-height: 2.3rem;
-	font-size: 2rem;
-	padding-top: 3.3rem;
-	padding-left: 3.3rem;
-	font-family: "helvetica" serif;
-}
 .main h1{
 	margin-bottom: 4.1rem;
-	font-size: 2rem;
-	font-weight: bold;
-	font-family: "helvetica",sans-serif;
 }
 .main h2{
-	font-size: 2rem;
 	font-weight: normal;
 	text-decoration: underline;
 }
@@ -64,11 +61,7 @@ html{
 	position: relative;
 }
 .footer p,a{
-	font-family: "Helvetica",sans-serif;
-	font-size: 2rem;
 	text-transform: uppercase;
-	font-weight: bold;
-	color: white;
 	position: absolute;
 	top:2rem;
 }
