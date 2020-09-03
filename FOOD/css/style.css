@@ -7,11 +7,10 @@ html{
 	 padding: 0;
 }
 body{
-	font-family: "helvetica", sans-serif;
+	font-family: "Helvetica", sans-serif;
 	font-weight: bold;
 	font-size: 2rem;
 	color: white;
-
 }
 .header{
 	height: 6rem;
@@ -21,6 +20,7 @@ body{
 	line-height: 6rem;
 	text-align: left;
 	padding-left: 2rem;
+	font-size: 2rem;
 }
 .main{
 	text-align: center;
@@ -36,7 +36,6 @@ body{
 	padding: 3.3rem;
 	text-align: left;
 	line-height: 2.3rem;
-	font-family: "helvetica", serif;
 	font-weight: normal;
 	color:black;
 }
@@ -46,14 +45,17 @@ body{
 }
 .main h1{
 	margin-bottom: 4.1rem;
+	font-size: 2rem;
 }
 .main h2{
 	font-weight: normal;
-	text-decoration: underline;
+	font-size: 2rem;
+	font-family:"Times New Roman", serif;
 }
 .main ul{
 	list-style-type: none;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
+	font-family:"Times New Roman", serif;
 }
 .footer{
 	height: 6rem;
@@ -71,4 +73,5 @@ body{
 .footer a{
 	right:2rem;
 	text-decoration: none;
+	color: white;
 }
