@@ -1,5 +1,5 @@
 html{
-	font-size: .6vw;
+	font-size: 62.5%;
 }
 *{
 	 box-sizing: border-box;
@@ -13,71 +13,71 @@ html{
 body{
 	font-family: "Helvetica", sans-serif;
 	font-weight: bold;
-	font-size: 2rem;
+	font-size: 20px;
 	color: white;
 }
 .header{
-	height: 6rem;
+	height: 60px;
 	background-color: var(--header-bg-color);
 }
 .header h1{
-	line-height: 6rem;
+	line-height: 60px;
 	text-align: left;
-	padding-left: 2rem;
-	font-size: 2rem;
+	padding-left: 20px;
+	font-size: 20px;
 }
 .main{
 	text-align: center;
-	min-height: calc(100vh - 12rem);
+	min-height: calc(100vh - 120px);
 	font-size:0;
 }
 .main section{
-	width: 40rem;
+	width: 400px;
 	border: 5px solid var(--section-border-color);
 	border-radius: 30px;
 	display: inline-block;
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	padding: 3.3rem;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 33px;
 	text-align: left;
-	line-height: 2.3rem;
+	line-height: 23px;
 	font-weight: normal;
-	color:black;
-	font-size:2rem;
+	color: black;
+	font-size: 20px;
 }
 .second{
-	margin-right: 5rem;
-	margin-left: 5rem;
+	margin-right: 50px;
+	margin-left: 50px;
 }
 .main h1{
-	margin-bottom: 4.1rem;
-	font-size: 2rem;
+	margin-bottom: 41px;
+	font-size: 20px;
 }
 .main h2{
 	font-weight: normal;
-	font-size: 2rem;
+	font-size: 20px;
 	font-family:"Times New Roman", serif;
 }
 .main ul{
 	list-style-type: none;
-	margin-bottom: 2rem;
+	margin-bottom: 20px;
 	font-family:"Times New Roman", serif;
 }
 .footer{
-	height: 6rem;
+	height: 60px;
 	background-color: red;
 	position: relative;
 }
-.footer p,a{
+.footer p, .footer a{
 	text-transform: uppercase;
 	position: absolute;
-	top:2rem;
+	top:20px;
 }
 .copyright{
-	left: 2rem;
+	left: 20px;
 }
 .footer a{
-	right:2rem;
+	right:20px;
 	text-decoration: none;
 	color: white;
 }

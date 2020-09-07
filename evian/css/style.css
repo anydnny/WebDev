@@ -1,0 +1,125 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+  --text-color: #E50043;
+  --pink-color:#F8BFC7;
+}
+header{
+	height: 140px;
+	width: 100%;
+	background-color: white;
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative; /*нужен fixed*/
+	font-family: "Arial", sans-serif;
+}
+.header h1{
+	font-size: 50px;
+	color: var(--text-color);
+	font-weight: normal;
+}
+.links a{
+	font-size: 50px;
+	color: var(--text-color);
+	font-weight: normal;
+	text-decoration: none;
+}
+.two{
+	margin-right: 25px;
+	margin-left: 25px;
+}
+section{
+	height: 950px;
+	width: 100%;
+	background-image: url(../img/cover.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+}
+.img h1{
+	font-size: 100px;
+	color: var(--text-color);
+}
+main{
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.text1
+{	font-size: 25px;
+	line-height: 29px;
+	margin: 150px 100px 150px 201px;
+	padding: 24px;
+	display: inline-block;
+	border: 3px solid var(--pink-color);
+	width: 1040px;
+	border-radius: 20px;
+}
+.text1 h2{
+	margin-bottom: 24px;
+	font-weight: normal;
+}
+.bottles{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom:256px; 
+}
+.bottles img{
+	display: inline-block;
+	width: 281px;
+	height: 863px;
+}
+.second-bottle{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.text2{
+	font-family: "Arial", sans-serif;
+	font-size: 25px;
+	line-height: 29px;
+	margin: 150px 100px 150px 201px;
+	padding: 24px;
+	padding-left: 0px;
+	display: flex;
+	border: 3px solid var(--pink-color);
+	width: 1040px;
+	border-radius: 20px;
+}
+.text2 img{
+	margin-right: 80px;
+	margin-left: 80px;
+}
+.text-block ul{
+	list-style-type: none;
+}
+.text-block h2{
+	font-size: 25px;
+	margin-bottom: 24px;
+	font-weight: normal;
+}
+.text-block p{
+	margin-top: 24px;
+}
+footer{
+	height: 140px;
+	background-color: var(--pink-color);
+}
+.footer h1{
+	font-size: 50px;
+	font-family: "arial", sans-serif;
+	font-weight: normal;
+	color: white;
+	line-height: 140px;
+	padding-left: 50px;
+}
+
