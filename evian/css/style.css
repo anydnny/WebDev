@@ -42,7 +42,6 @@ header{
 section{
 	margin-top: 14rem; 
 	height: 95rem;
-	width: 100%;
 	background-image: url(../img/cover.png);
 	background-size: cover;
 	display: flex;
@@ -54,8 +53,8 @@ section{
 	color: var(--text-color);
 }
 main{
-	padding: 15rem 20rem;
-	width: 100%;
+	margin-top: 15rem;
+	margin-bottom: 15rem;
 	background-color: white;
 	display: flex;
 	justify-content: center;
@@ -63,6 +62,7 @@ main{
 	flex-direction: column;
 }
 .textblock-1{
+	width: 104rem;
 	display: inline-block;
 	margin-bottom: 15rem;
 	padding: 2.4rem;
@@ -93,6 +93,7 @@ main{
 	margin-bottom: 15rem;
 }
 .textblock-2{
+	width: 104rem;
 	padding: 2.4rem;
 	padding-left: 0rem;
 	display: flex;
