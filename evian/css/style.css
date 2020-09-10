@@ -8,19 +8,24 @@
   --pink-color:#F8BFC7;
 }
 html{
-	font-size: 10px;
+	font-size: 62.5%
+}
+.body{
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+	font-size: 5rem;
+	color: black;
 }
 header{
 	top:0;
-	height: 140px;
+	height: 14rem;
 	width: 100%;
 	background-color: white;
-	padding: 50px;
+	padding: 5rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	position: fixed; 
-	font-family: "Arial", sans-serif;
 	color: var(--text-color);
 }
 .header h1{
@@ -29,7 +34,6 @@ header{
 }
 .links li{
 	display: inline-block;
-	font-size: 5rem;
 	font-weight: normal;
 }
 .link-two{
@@ -105,7 +109,6 @@ header{
 	padding: 2.4rem;
 	padding-left: 0rem;
 	display: flex;
-	font-family: "Arial", sans-serif;
 	font-size: 2.5rem;
 	line-height: 2.9rem;
 	border: .3rem solid var(--pink-color);
@@ -134,7 +137,6 @@ header{
 }
 .footer h1{
 	font-size: 5rem;
-	font-family: "arial", sans-serif;
 	font-weight: normal;
 	color: white;
 	line-height: 14rem;
