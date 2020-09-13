@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+.header{
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	min-height: 160px;
+}
+.header h1{
+	font-family: Times New Roman;
+	font-size: 50px;
+	line-height: 57px;
+	font-weight: normal;
+}
+.main{
+	display: flex;
+	justify-content: space-around;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.column{
+	display: flex;
+	flex-direction: column;
+	width: calc((100% - 100px)/3);
+	min-height: 1000px;
+	border: 1px solid black;	
+}
+.column h2,p{
+	margin-bottom: 15px;
+}
+.img{
+	background-image: url(../img/swarm.png);
+	background-size: cover;
+	background-position: center;
+
+	padding-bottom: 100%; 
+}
+.text-container{
+	margin: 20px;
+}
+.footer{
+	background-color: orange;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100vw;
+	min-height: 160px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.footer h1{
+	font-weight: normal;
+	font-family: Times New Roman;
+	font-size: 50px;
+}
+.footer a{
+	text-decoration: none;
+	color: blue;
+}
