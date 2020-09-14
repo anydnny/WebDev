@@ -3,47 +3,61 @@
 	padding:0;
 	box-sizing: border-box;
 }
+html{
+	font-size: 62.5%;
+}
+.body{
+	font-family: Times New Roman;
+	font-size: 2rem;
+	line-height: 2.3rem;
+}
 .header{
 	background-color: orange;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
-	min-height: 160px;
+	min-height: 16rem;
 }
 .header h1{
-	font-family: Times New Roman;
-	font-size: 50px;
-	line-height: 57px;
+	font-size: 5rem;
 	font-weight: normal;
+	line-height: 5.7rem;	
 }
 .main{
 	display: flex;
 	justify-content: space-around;
-	padding-left: 70px;
-	padding-right: 70px;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	align-items: flex-start;
+	padding: 7rem;
 }
 .column{
 	display: flex;
 	flex-direction: column;
-	width: calc((100% - 100px)/3);
-	min-height: 1000px;
-	border: 1px solid black;	
+	width: calc((100% - 10rem)/3);
+	min-height: 80rem;
+	border: .1rem solid black;	
 }
-.column h2,p{
-	margin-bottom: 15px;
+.column h2,p,ul{
+	margin-bottom: 2rem;
+	font-size: 2rem;
+	list-style-type: none;
 }
 .img{
-	background-image: url(../img/swarm.png);
 	background-size: cover;
 	background-position: center;
-
-	padding-bottom: 100%; 
+	padding-bottom: 150%; 
+}
+.swarm{
+	background-image: url(../img/swarm.png);
+}
+.yogurt{
+	background-image: url(../img/yogurt.png);
+}
+.granola{
+	background-image: url(../img/granola.png);
 }
 .text-container{
-	margin: 20px;
+	margin: 3rem 3.3rem;
 }
 .footer{
 	background-color: orange;
@@ -51,14 +65,13 @@
 	justify-content: space-between;
 	align-items: center;
 	width: 100vw;
-	min-height: 160px;
-	padding-left: 50px;
-	padding-right: 50px;
+	min-height: 16rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
 }
 .footer h1{
+	font-size: 5rem;
 	font-weight: normal;
-	font-family: Times New Roman;
-	font-size: 50px;
 }
 .footer a{
 	text-decoration: none;
