@@ -69,8 +69,8 @@ a{
 @media screen and (min-width: 855px) {
 body{
 	font-family: Helvetica, serif;
-	font-size: 5rem;
-	line-height: 5.7rem;
+	font-size: 3vw;
+	line-height: 4vw;
 }
 .header{
 	display: flex;
@@ -94,6 +94,8 @@ body{
 .text div{
 	display: flex;
 	width: calc((100% - 2rem)/2);
+	/*min-width: 50rem;
+	min-height: 25rem;*/ 
 	height: 20vw;
 	align-items: center;
 	justify-content: center;
