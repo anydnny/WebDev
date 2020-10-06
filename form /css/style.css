@@ -1,0 +1,144 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+  --yellow-color: #FEB700;
+  --pink-color: #F8BFC7;
+  --blue-color: #336FD1;
+}
+html{
+	font-size: 62.5%
+}
+.body{
+	font-weight: normal;
+	font-family: "Helvetica", sans-serif; 
+}
+.header{
+	display:flex ;
+	width: 100vw;
+	height: 9rem;
+	background-color: var(--pink-color);
+	align-items: center;
+	justify-content: space-between;
+}
+.header a{	
+	font-family: "Helvetica", sans-serif; 
+	text-decoration: none;
+	color: black;
+	font-size: 2rem;
+}
+.links-container{
+	display: flex;
+	margin-left: 5rem;
+	font-weight: normal;
+}
+.links-container li{
+	display: inline-block;
+}
+.upakovka{
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+ .menu-container h2{
+ 	margin-right: 5rem;
+	display: inline-block;
+	font-weight: normal;
+}
+.main{
+	min-height: calc(100vh - 18rem);
+}
+/*редактор формы*/
+.hero{
+	display: flex;
+	min-height: 64rem;
+	background-image: url(../img/background.png);
+	background-size: cover;
+}
+form{
+	margin: 9rem 0rem 0rem 9rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.palceholder{
+	font-family: Times New Roman;
+}
+input,label{
+	font-size: 2rem;
+	font-family: Helvetica, sans-serif;
+	color: white;
+}
+label{
+	line-height: 5.3rem;
+}
+input:focus{
+	outline: none;
+}
+input{
+	background-color: var(--pink-color);
+	border:none;
+	border-bottom: .1rem solid white;
+	font-family: Times New Roman;
+}
+fieldset[class=personal]{
+	display: flex;
+	width: 30rem;
+	height: 36.2rem;
+	padding-left: 3rem;
+	border:.5rem solid white;
+	border-radius: 2rem;
+	background-color: var(--pink-color);
+}
+input[type="submit"]{
+	display: flex;
+	justify-content: center;
+	height: 6rem;
+	width: 20rem;
+	color: white;
+	background-color: var(--yellow-color);
+	border-radius: 3rem;
+	outline: none;
+	border:.3rem solid white;
+	text-transform: uppercase;
+	margin-top: 1rem;
+	font-family: Helvetica;
+}
+fieldset[class=submit-button]{
+	border:none;
+}
+/*конец формы*/
+.text-section{
+	display: flex;
+	width: 100vw;
+	height: 20.1rem;
+	padding-top: 3rem;
+	background-color: var(--blue-color);
+	justify-content: center;
+}
+h1{
+	font-family: "Helvetica",sans-serif;
+	font-size: 5rem;
+	color: var(--yellow-color);
+}
+.footer{
+	display: flex;
+	width: 100vw;
+	height: 9rem;
+	background-color: var(--pink-color);
+	align-items: center;
+	justify-content: space-between;
+}
+.footer h2{
+	font-family: "Helvetica", sans-serif;
+	font-size: 2rem;
+	font-weight: normal;
+	color: white;
+}
+.secret-parcel{
+	margin-left: 5rem;
+}
+.year{
+	margin-right: 5rem;
+}
