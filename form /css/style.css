@@ -27,7 +27,7 @@ html{
 	font-family: "Helvetica", sans-serif; 
 	text-decoration: none;
 	color: black;
-	font-size: 2rem;
+	font-size: 1.8rem;
 }
 .links-container{
 	display: flex;
@@ -49,48 +49,29 @@ html{
 .main{
 	min-height: calc(100vh - 18rem);
 }
-/*редактор формы*/
 .hero{
-	display: flex;
-	height: 64rem;
+	display:flex;
+	width: 100%;
+	height: calc(100vh - 18rem);
 	background-image: url(../img/background.png);
-	background-size: contain;
-	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
+/*редактор формы*/
 form{
 	margin: 9rem 0rem 0rem 9rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.palceholder{
-	font-family: Times New Roman;
-}
-input,label{
-	font-size: 2rem;
-	font-family: Helvetica, sans-serif;
-	color: white;
-}
-label{
-	line-height: 5.3rem;
-}
-input:focus{
-	outline: none;
-}
-input{
-	background-color: var(--pink-color);
-	border:none;
-	border-bottom: .1rem solid white;
-	font-family: Times New Roman;
-}
 fieldset[class=personal]{
 	display: flex;
 	width: 30rem;
-	height: 36.2rem;
-	padding-left: 3rem;
 	border:.5rem solid white;
 	border-radius: 2rem;
 	background-color: var(--pink-color);
+	padding-top: 3.3rem;
+	padding-left: 3rem; 
 }
 input[type="submit"]{
 	display: flex;
@@ -106,22 +87,50 @@ input[type="submit"]{
 	margin-top: 1rem;
 	font-family: Helvetica;
 }
+input[type="email"]{
+	margin-bottom: 3rem;
+}
 fieldset[class=submit-button]{
 	border:none;
+}
+::placeholder{
+	font-family: Times New Roman;
+	font-style: italic;
+	color: white;
+}
+input,label{
+	font-size: 2rem;
+	font-family: Helvetica, sans-serif;
+	color: white;
+}
+label{
+	line-height: 5.3rem;
+}
+input:focus{
+	outline: none;
+}
+input{
+	width: 90%;
+	background-color: var(--pink-color);
+	border:none;
+	border-bottom: .1rem solid white;
+	font-family: Times New Roman;
 }
 /*конец формы*/
 .text-section{
 	display: flex;
 	width: 100vw;
-	height: 20.1rem;
+	height: 20.6vh;
 	padding-top: 3rem;
+	text-align: center;
 	background-color: var(--blue-color);
 	justify-content: center;
 }
 h1{
 	font-family: "Helvetica",sans-serif;
-	font-size: 5rem;
+	font-size: 6.3vh;
 	color: var(--yellow-color);
+
 }
 .footer{
 	display: flex;
@@ -142,4 +151,47 @@ h1{
 }
 .year{
 	margin-right: 5rem;
+}
+@media screen and (max-width: 420px) {
+	.header{
+		height: 6rem;
+		justify-content: space-around;
+	}
+	.header a{
+		font-size: 1.7rem;
+
+	}
+	.links-container{
+		margin-left: 0rem;
+	}
+	 .menu-container h2{
+ 		margin-right: 0rem;
+	}
+	.upakovka{
+		margin-left: 0.8rem;
+		margin-right: 0.8rem;
+	}
+	.hero{
+		align-items: center;
+		justify-content: center;
+		height: calc(100vh - 6rem);
+	}
+	form{
+		margin: 0rem;
+	}
+	.text-section{
+		padding-top: 3rem;
+		align-items: center;
+		justify-content: center;
+	}
+	h1{
+		font-size: 3rem;
+	}
+	.secret-parcel{
+		text-align: center;
+		margin-left: 0rem;
+	}
+	.year{
+		margin-right: 0rem;
+	}
 }
